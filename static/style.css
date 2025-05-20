@@ -1,0 +1,52 @@
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: lightskyblue;
+        color: blue;
+        line-height:1.6 ;
+        padding: 20px;
+    }
+    header{
+    background-color: royalblue;
+    color:lightskyblue;
+    padding: 10px 0;
+    text-align:center;
+    border-style: outset;
+    border-color: blue;
+    border-width: thick;
+    border-radius: 15px;
+    }
+    header h1{
+    margin-bottom:10px;
+    }
+    nav u1{
+        list-style:none;
+    }
+    nav ul li{
+        display:inline;
+        margin: 0 10px;
+    }
+    nav ul li a{
+        color:lightskyblue;
+        text-decoration: none;
+    }
+    section{
+      margin:20px 0;  
+    }
+    section#sobre,
+    section#projetos,
+    section#contato{
+        background-color: powderblue;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px blue (0,0,0,0.1);
+    }
+    footer{
+        text-align: right;
+        margin-top: 20px;
+    }
